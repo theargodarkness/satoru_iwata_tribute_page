@@ -1,0 +1,93 @@
+#title-div {
+    margin: 10px;
+}
+
+#image {
+    display: block;
+    margin-top: 4vw;
+    margin-right: auto;
+    margin-left: auto;
+    border: black;
+    border-style: solid;
+    border-width: 2vw;
+    width: 35vw;
+}
+
+#img-div {
+    background: #393941;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#img-caption {
+    padding: 3vw;
+    font-size: 1.5vw;
+    text-align: left;
+    color: white;
+}
+
+.flexbox-container {
+    display: flex;
+    margin: 5vw 5vw;
+}
+
+.left-joycon {
+    background: #00B3D4;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    min-width: 20vw;
+    width: 70%;
+}
+
+.minus-button {
+    border-radius: 5px;
+    float: right;
+    margin-top: 3vw;
+    margin-right: 2vw;
+    background: black;
+    color: white;
+    width: 4vw;
+    height: 1vw;
+}
+
+.left-analog-stick {
+    position: absolute;
+    margin-left: 5vw;
+    margin-top: 7vw;
+    border-radius: 50%;
+    background-color: black;
+    height: 10vw;
+    width: 10vw;
+}
+
+.right-joycon {
+    background: #FE574D;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    min-width: 20vw;
+    width: 70%;
+}
+
+.plus-button {
+    border-radius: 5px;
+    float: left;
+    margin-left: 2vw;
+    margin-top: 3vw;
+    background: black;
+    color: white;
+    width: 4vw;
+    height: 1vw;
+}
+
+.plus-button::before {
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 1.5vw;
+    margin-top: -1.5vw;
+    content: '';
+    width: 1vw;
+    height: 4vw;
+    background: black;
+}
