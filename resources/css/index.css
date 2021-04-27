@@ -1,5 +1,37 @@
+#title {
+    border-radius: 25px;
+    border-style: solid;
+    border-color: white;
+    display: block;
+    margin: 0px auto;
+    line-height: 3.5vw;
+    width: 22vw;
+}
+
+.divider {
+    border-style: solid;
+    border-color: hsl(0, 0%, 81%);
+    margin: 0px 2vw;
+    border-width: 0.2vw;
+    border-radius: 15px;
+}
+
+#quote {
+    font-weight: 500;
+    margin: 1vw;
+}
+
 #title-div {
-    margin: 10px;
+    background: #E60012;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+    text-align: center;
+    width: 50vw;
+    display: block;
+    margin: 3vw auto;
+    padding: 2vw;
 }
 
 #image {
@@ -22,15 +54,17 @@
 }
 
 #img-caption {
-    padding: 3vw;
+    padding: 2vw 4vw;
+    text-align: center;
     font-size: 1.5vw;
-    text-align: left;
+    font-family: 'Poppins', sans-serif;
+
     color: white;
 }
 
 .flexbox-container {
     display: flex;
-    margin: 5vw 5vw;
+    margin: 3vw 5vw;
 }
 
 .left-joycon {
@@ -44,7 +78,7 @@
 .minus-button {
     border-radius: 5px;
     float: right;
-    margin-top: 3vw;
+    margin-top: 4vw;
     margin-right: 2vw;
     background: black;
     color: white;
@@ -54,12 +88,54 @@
 
 .left-analog-stick {
     position: absolute;
-    margin-left: 5vw;
-    margin-top: 7vw;
+    margin-left: 5.5vw;
+    margin-top: 8vw;
     border-radius: 50%;
     background-color: black;
     height: 10vw;
     width: 10vw;
+}
+
+.left-joycon-buttons {
+    margin-top: 25vw;
+    flex-direction: column;
+}
+
+.up-button {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    background-color: black;
+    height: 4vw;
+    width: 4vw;
+}
+
+.side-buttons {
+    display: block;
+    margin-left: 4vw;
+    border-radius: 50%;
+    background-color: black;
+    height: 4vw;
+    width: 4vw;
+}
+
+.side-buttons::before {
+    content: "";
+    position: absolute;
+    height: 4vw;
+    width: 4vw;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 8vw;
+}
+
+.down-button {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    background-color: black;
+    height: 4vw;
+    width: 4vw;
 }
 
 .right-joycon {
@@ -74,7 +150,7 @@
     border-radius: 5px;
     float: left;
     margin-left: 2vw;
-    margin-top: 3vw;
+    margin-top: 4vw;
     background: black;
     color: white;
     width: 4vw;
@@ -90,4 +166,19 @@
     width: 1vw;
     height: 4vw;
     background: black;
+}
+
+.right-analog-stick {
+    position: absolute;
+    margin-left: 5.5vw;
+    margin-top: 27vw;
+    border-radius: 50%;
+    background-color: black;
+    height: 10vw;
+    width: 10vw;
+}
+
+.right-joycon-buttons {
+    margin-top: 8vw;
+    flex-direction: column;
 }
